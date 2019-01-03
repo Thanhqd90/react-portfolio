@@ -16,7 +16,7 @@ class Resume extends Component {
                 </div>
                 <h2 style={{textAlign: "center"}}>Thanh Dang</h2>
                 <h4 style={{color:"grey", textAlign: "center"}}>Full Stack Web Developer</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget rutrum nibh, et dapibus arcu. Fusce gravida sagittis massa ut tempus. Aenean massa arcu, scelerisque eget turpis vel, egestas pulvinar erat. Nunc vel magna commodo, condimentum tellus at, accumsan erat.</p>
+                <p>Full Stack Web Developer with a background in education and finance.  Team player, problem solver and a lifelong commitment to learning.</p>
                 
                 <hr style={{borderTop: "2px solid black"}}/>
                 <h5>Location</h5>
@@ -56,13 +56,14 @@ class Resume extends Component {
                     startYear={2015}
                     endYear="Present"
                     jobName="Wells Fargo Bank N.A."
-                    jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget rutrum nibh, et dapibus arcu. Fusce gravida sagittis massa ut tempus.  Aenean massa arcu, scelerisque"
+                    jobDescription="Handled large volumes of cash while being in compliance with federal regulations and preventing loss exposure. Provided exceptional customer service through product knowledge and problem solving. Supervise and coach team members in the teller role."
                 />
                 <Experience
                     startYear={2011}
                     endYear={2013}
                     jobName="Marion County Public Schools"
-                    jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget rutrum nibh, et dapibus arcu. Fusce gravida sagittis massa ut tempus.  Aenean massa arcu, scelerisque"
+                    jobDescription="Managed classroom sizes ranging from 16-20 students.
+                    Followed and taught lesson plans assigned by permanent teacher for students' in Kindergarten through the 5th grade. Maintained effective classroom management strategies and applied advanced teaching capabilities in all subject areas."
                 />
                 <hr style={{borderTop: "3px solid #e22947"}}/>
                 <h2>Skills</h2>
@@ -87,13 +88,6 @@ class Resume extends Component {
                 <Skills
                 skill="React"
                 progress={70} />
-                <Skills
-                skill="Angular"
-                progress={70} />
-                <Skills
-                skill="VueJS"
-                progress={70} />
-                
                 </Cell>
                 
             </Grid>
